@@ -90,11 +90,7 @@ def test():
 
             print('[%d/%d] %s, PSNR: %.3f, SSIM: %.4f, Time:%.4f' % (
             i, test_image_num, image_path, PSNR, SSIM, (end - start)))
-            # x_output= abs(img-x_output)
-            # x_max = np.max(x_output)
-            # x_min = np.min(x_output)
-            # x_output = (x_output-x_min)/(x_max-x_min)
-            # x_output = x_output*255
+
             test_name_split = os.path.split(image_path)
             test_image_ycrcb[:, :, 0] = x_output
             im_rec_rgb = cv2.cvtColor(test_image_ycrcb, cv2.COLOR_YCrCb2BGR)
