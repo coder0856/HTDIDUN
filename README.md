@@ -1,2 +1,2 @@
-Full codes and pretrained models will be made available. 
+Full codes and trained models will be made available. 
 
