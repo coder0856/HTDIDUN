@@ -6,7 +6,6 @@ from utils import *
 from skimage.metrics import structural_similarity as ssim
 from time import time
 from  thop import  profile
-
 parser = ArgumentParser(description='HTDIDUN')
 parser.add_argument('--epoch', type=int, default=600)
 parser.add_argument('--phase_num', type=int, default=10)
