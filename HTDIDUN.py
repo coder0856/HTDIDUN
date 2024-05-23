@@ -2,7 +2,6 @@ import torch.nn as nn
 import torch
 import torch.nn.functional as F
 from torch.nn import init
-from PIL import Image
 import cv2
 import numpy as np
 def default_conv(in_channels, out_channels, kernel_size, bias=True):
@@ -71,7 +70,6 @@ class ResidualGroup(nn.Module):
         return res
 
 
-# Initialization model
 def PhiTPhi_fun(x, PhiW, PhiTW):
     temp = F.conv2d(x, PhiW, padding=0, stride=32, bias=None)
     temp = F.conv2d(temp, PhiTW, padding=0, bias=None)
