@@ -8,3 +8,7 @@ Deep Unfolding Network (DUN) has achieved great success in the image Compressed 
 ## Test
 
 Download the pretrained models [model.zip](https://drive.google.com/file/d/1jRryzrtNbXzuUMUnkpb68-xsm3LpdVgr/view?usp=drive_link) and put it into  `./model/` then run:
+
+```shell
+python test.py --testset_name Set11
+```
