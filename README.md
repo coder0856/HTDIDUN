@@ -10,5 +10,15 @@ Deep Unfolding Network (DUN) has achieved great success in the image Compressed 
 Download the pretrained models [model.zip](https://drive.google.com/file/d/1jRryzrtNbXzuUMUnkpb68-xsm3LpdVgr/view?usp=drive_link) and put it into  `./model/` then run:
 
 ```shell
-python test.py --testset_name Set11
+python test.py --testset_name Set11 --cs_ratio=0.1/0.2/0.3/0.4/0.5
 ```
+
+## Train 
+Download the dataset of [Waterloo Exploration Database](https://kedema.org/project/exploration/index.html) and put the `pristine_images` directory (containing 4744 `.bmp` image files) into `./data`, then run:
+```shell
+python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
+```
+
+## Acknowledgement
+
+Our works is built on the codes of [PRL](https://github.com/Guaishou74851/PRL). Thanks for their sharing.
