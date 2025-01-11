@@ -10,13 +10,13 @@ Deep Unfolding Network (DUN) has achieved great success in the image Compressed 
 
 ## Test
 
-Download the pretrained models [pretrained_models.zip](https://drive.google.com/file/d/1jRryzrtNbXzuUMUnkpb68-xsm3LpdVgr/view?usp=drive_link) and put it into  `./model/` then run:
+Download and unzip the pretrained models [pretrained_models.zip](https://drive.google.com/file/d/1jRryzrtNbXzuUMUnkpb68-xsm3LpdVgr/view?usp=drive_link). Put them into  `./model/` then run:
 
 ```shell
 python test.py --testset_name Set11 --cs_ratio=0.1/0.2/0.3/0.4/0.5
 ```
 
-- We also provide a 128 channel version in the pretrained models which owns superior performance but requires long time for training and inference.
+- We also provide a 128 channel HTDIDUN for 0.3 CS ratio in the pretrained models which owns superior performance but requires long time for training and inference.
  
 ## Train 
 Download the dataset of [Waterloo Exploration Database](https://kedema.org/project/exploration/index.html) and put the `pristine_images` directory (containing 4744 `.bmp` image files) into `./data`, then run:
