@@ -24,6 +24,21 @@ Download the dataset of [Waterloo Exploration Database](https://kedema.org/proje
 python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
 ```
 
+## Citation
+
+```
+@ARTICLE{10835111,
+  author={Li, Tiancheng and Yan, Qiurong and Li, Yi and Yan, Jinwei},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={High-Throughput Decomposition-Inspired Deep Unfolding Network for Image Compressed Sensing}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Imaging;Approximation algorithms;Optimization;Message passing;Image reconstruction;Compressed sensing;Noise reduction;Iterative algorithms;Inverse problems;IP networks;Compressed sensing;deep unfolding network;convolutional neural network;image restoration},
+  doi={10.1109/TCI.2025.3527880}}
+```
+
 ## Acknowledgement
 
 Our works is built on the codes of [PRL](https://github.com/Guaishou74851/PRL). Thanks for their sharing.
