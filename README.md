@@ -26,4 +26,4 @@ python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
 
 ## Acknowledgement
 
-Our works is built on the codes of [PRL](https://github.com/Guaishou74851/PRL). Thanks for their sharing.
+Our work is built on the codes of [PRL](https://github.com/Guaishou74851/PRL). Thanks for their sharing.
