@@ -26,11 +26,11 @@ python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
 
 ## Results
 
-<img src="E:/Personal_Research_System/Git_Station/HTDIDUN/figs/result1.png" alt="net" style="zoom:50%;" />
+![net](figs/result1.png)
 
 
 
-<img src="E:/Personal_Research_System/Git_Station/HTDIDUN/figs/result2.png" alt="net" style="zoom: 50%;" />
+![net](figs/result2.png)
 
 
 
