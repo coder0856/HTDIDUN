@@ -17,12 +17,26 @@ python test.py --testset_name Set11 --cs_ratio=0.1/0.2/0.3/0.4/0.5
 ```
 
 - We also provide a 128 channel HTDIDUN for 0.3 CS ratio in the pretrained models which owns superior performance but requires longer time for training and inference.
- 
+
 ## Train 
 Download the dataset of [Waterloo Exploration Database](https://kedema.org/project/exploration/index.html) and put the `pristine_images` directory (containing 4744 `.bmp` image files) into `./data`, then run:
 ```shell
 python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
 ```
+
+## Results
+
+<img src="E:/Personal_Research_System/Git_Station/HTDIDUN/figs/result1.png" alt="net" style="zoom:50%;" />
+
+
+
+<img src="E:/Personal_Research_System/Git_Station/HTDIDUN/figs/result2.png" alt="net" style="zoom: 50%;" />
+
+
+
+
+
+
 
 ## Acknowledgement
 
