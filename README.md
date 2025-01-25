@@ -26,11 +26,14 @@ python train.py --cs_ratio=0.1/0.2/0.3/0.4/0.5
 
 ## Results
 
-![net](figs/result1.png)
 
+<p align="center">
+  <img src="figs/result1.png" width="50%">
+</p>
 
-
-![net](figs/result2.png)
+<p align="center">
+  <img src="figs/result2.png" width="100%">
+</p>
 
 
 
